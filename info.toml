@@ -246,7 +246,7 @@ name = "structs3"
 path = "exercises/structs/structs3.rs"
 mode = "test"
 hint = """
-The new method needs to panic if the weight is physically impossible :), how do we do that in Rust?
+When there is a valid weight received, we can safely create a new instance of our struct. Challenge yourself to use the field init shorthand: https://doc.rust-lang.org/book/ch05-01-defining-structs.html#using-the-field-init-shorthand-when-variables-and-fields-have-the-same-name
 
 For is_international: What makes a package international? Seems related to the places it goes through right?
 
